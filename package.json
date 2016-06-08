@@ -1,0 +1,36 @@
+{
+  "name": "web3-ddp-provider",
+  "version": "1.0.0",
+  "description": "This module should be used by Web3 to allow an user to have direct interaction with the ethereum blockchain without having an instance of geth locally. The meteor server expects a geth node's RPC to be available at localhost:8545",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel --out-dir build index.js src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagodelgado111/web3-ddp-provider.git"
+  },
+  "keywords": [
+    "meteor",
+    "web3",
+    "ddp"
+  ],
+  "author": "Alex Rea (@area)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagodelgado111/web3-ddp-provider/issues"
+  },
+  "homepage": "https://github.com/thiagodelgado111/web3-ddp-provider#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "babel-cli": "^6.6.0",
+    "babel-eslint": "^6.0.0",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.2"
+  }
+}
